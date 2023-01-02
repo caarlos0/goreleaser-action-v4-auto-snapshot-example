@@ -12,7 +12,7 @@ permissions:
   packages: write
 
 jobs:
-  prepare:
+  release:
     runs-on: ubuntu-latest
     steps:
       - if: startsWith(github.ref, 'refs/tags/v')
